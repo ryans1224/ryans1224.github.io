@@ -71,3 +71,53 @@ ul.portfolio-item li ul.technologies li{
     margin: 5px 10px;
     list-style: none;
 }
+
+
+
+
+section.project-desc{
+    width:100%;
+    background: #fff;
+    padding:80px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height:300px;
+}
+section.project-desc:nth-child(2n+1){
+    background: #ffcccc;
+}
+
+section.project-desc div.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+}
+
+
+
+section.project-desc.full-col{
+    flex-direction: column;
+}
+section.project-desc.left-col{
+    flex-direction: row;
+}
+section.project-desc.right-col{
+    flex-direction: row-reverse;
+}
+
+
+
+section.project-desc.right-col div.text, section.project-desc.left-col div.text{
+    max-width:50%;
+}
+section.project-desc.full-col div.text{
+    margin-bottom:60px;
+}
+
+
+section.project-desc div.text p{
+    text-align: center;
+}
