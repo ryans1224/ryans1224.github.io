@@ -1,22 +1,41 @@
 <html>
 <head>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="backToTop.js"></script>
 </head>
 <body>
-    <header>Ryan Smith - Portfolio</header>
+
+    <header>
+        <div class="logo">
+            <span class="main-logo">Ryan Smith</span>
+            <span class="sub-logo">Portfolio</span>
+        </div>
+        <ul class="nav">
+            <li>
+                <img src="https://img.icons8.com/small/50/000000/open-resume.png">
+                <a href="">my CV</a>
+            </li>
+        </ul>
+    </header>
+
+
     <ul class="portfolio-item">
 
         <li>
-            <img src="img/e3d.jpg" />
-            <h2>E3D</h2>
-            <ul class="technologies">
-                <li>Magento 2</li>
-                <li>Wordpress</li>
-            </ul>
+            <a href="e3d.html">
+                <img src="img/e3d.jpg" />
+                <h2>E3D</h2>
+                <ul class="technologies">
+                    <li>Magento 2</li>
+                    <li>Wordpress</li>
+                </ul>
+            </a>
         </li>
 
         <li>
             <h2>Pathio</h2>
+            <img src="img/pathio.png" />
             <ul class="technologies">
                 <li>Magento 2</li>
                 <li>Wordpress</li>
@@ -30,38 +49,52 @@
                 <li>Wordpress</li>
             </ul>
         </li>
-
+<!-- 
         <li>
             <h2>OpenShades</h2>
             <ul class="technologies">
                 <li>Magento 2</li>
                 <li>Wordpress</li>
             </ul>
+        </li> -->
+
+        <li>
+            <h2>3D printing product visualisations</h2>
+            <ul class="technologies">
+                <li>Three.js</li>
+                <li>Javascript</li>
+                <li>Wordpress</li>
+            </ul>
         </li>
+
+
 
         <li>
             <h2>Mapping Lancaster in WW1</h2>
             <ul class="technologies">
-                <li>Magento 2</li>
-                <li>Wordpress</li>
+                <li>Leaflet.js</li>
             </ul>
         </li>
 
         <li>
             <h2>Sparkle Rita</h2>
             <ul class="technologies">
-                <li>Magento 2</li>
-                <li>Wordpress</li>
+                <li>Shopify</li>
             </ul>
         </li>
 
         <li>
             <h2>BlogScrollerMenu</h2>
             <ul class="technologies">
-                <li>Magento 2</li>
-                <li>Wordpress</li>
+                <li>jQuery</li>
             </ul>
         </li>
     </ul>
+
+
+
+
+
+    <button onclick='topFunction()' id='myBtn' title='Go to top'>Top</button>
 </body>
 </html>
