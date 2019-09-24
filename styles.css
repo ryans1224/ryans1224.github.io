@@ -126,12 +126,12 @@ ul.portfolio-item li ul.technologies li{
     float:left;
 }
 ul.portfolio-item li ul.technologies li.magento{
-    border-color:orange;
-    color:orange;
+    border-color:#f26322;
+    color:#f26322;
 }
 ul.portfolio-item li ul.technologies li.wordpress{
-    border-color:blue;
-    color:blue;
+    border-color:#0073aa;
+    color:#0073aa;
 }
 
 
