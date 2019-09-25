@@ -232,3 +232,23 @@ section.project-desc div.text p{
   #myBtn:hover {
     background-color: #555; /* Add a dark-grey background on hover */
   }
+
+
+
+
+
+
+  @media only screen and (max-width: 900px) {
+    body {
+      width:100%;
+    }
+
+    ul.portfolio-item{
+        width:100%;
+    }
+
+    ul.portfolio-item li{
+        width:90%;
+        margin: 0 auto;
+    }
+  }
